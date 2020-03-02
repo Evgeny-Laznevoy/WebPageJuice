@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat';
+} 
+
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    height: 900px;
+    background-color:  #ccdef0 ;
+    background-image: radial-gradient(circle 675px at center, #ffffff 0%, #ccdef0 100%);
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: #000000;
+    font-weight: 900; 
+
+    font-size: 28px;
+    line-height: 1;
+
+}
+
+.logo span{
+    color: #5abb33;
+}
+
+.nav{
+
+}
