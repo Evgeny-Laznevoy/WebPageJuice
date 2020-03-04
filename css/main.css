@@ -5,7 +5,9 @@ body{
 
 
 .container{
-    width: 1170px;
+    width: 100%;
+    max-width: 1170px;
+    /* width: 1170px; */
     margin: 0 auto;
 }
 
@@ -71,7 +73,8 @@ body{
 }
 
 .header-desc{
-    width: 500px;
+    /* width: 500px; */
+    width: 42.735042735%;
     padding-top: 90px;
 }
 
@@ -128,7 +131,8 @@ body{
 }
 
 .header-photo{
-    width: 670px;
+    /* width: 670px; */
+    width: 57.26495726%;
 }
 
 .footer{
@@ -154,4 +158,74 @@ body{
 .footer a {
     text-decoration: none;
     color: #fada5a;
+}
+
+.flexible-image{
+    max-width: 100%;
+}
+
+/* =========================================Adaptive=================================================== */
+@media screen and (max-width: 320px) {
+    *{
+        transition: all .1s;
+    }
+
+    .logo {
+        
+    }
+    .nav-wrapper{
+        padding-top: 30px;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .nav{
+        margin-top: 20px;
+    }
+
+    .nav_item{
+        margin-right: 10px;
+    }
+
+    .nav_link{
+        font-size: 12px;
+    }
+
+    .header-content{
+        flex-direction: column;
+    }
+
+    .header-desc{
+        width: 320px;
+        padding-top: 0px;
+    }
+
+    .header_title{
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .header_text{
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .header_btn{
+        height: 35px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+    /* .header-photo img{
+        margin-left: 130px;
+
+    } */
+
+    .header-content img{
+        margin-left: 130px;
+    }
 }
